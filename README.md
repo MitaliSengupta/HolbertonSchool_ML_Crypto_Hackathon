@@ -19,27 +19,27 @@ Many other images are available [*here*](https://app.vagrantup.com/boxes/search)
   - $ vagrant ssh -> now you are inside your virtual machine. 
 
 ## Windows
-- Download VirtualBox from this link
+- Download VirtualBox from this [*link*](https://intranet.hbtn.io/rltoken/Z2roTuyhhdPF0CnohrZQIw)
 - Install VirtualBox
-- Download Vagrant from this link
+- Download Vagrant from this [*link*](https://intranet.hbtn.io/rltoken/0WSgWVLsNmTFDTgwy1Xg1Q)
 - Install Vagrant
-Open the command prompt
-Add the Ubuntu 14.04 (Trusty) image to your box list:
-C:\Users\julien> vagrant box add ubuntu/trusty64 Warning: this step can take time
-Many other images are available here
 
 Create your first virtual machine:
-C:\Users\julien> vagrant init ubuntu/trusty64 -> it will generate a Vagrantfile with base = "ubuntu/trusty64" -you don’t have to execute this command line everyday, only once, to create a new virtual machine 
-C:\Users\julien> vagrant up -> it will start your virtual machine 
-C:\Users\julien> vagrant ssh -> now you are inside your virtual machine. 
-Ubuntu 16.04
+C:\Users\xenial64> vagrant init ubuntu/xenial64 -> it will generate a Vagrantfile with base = "ubuntu/xenial64" -you don’t have to execute this command line everyday, only once, to create a new virtual machine 
+C:\Users\xenial64> vagrant up -> it will start your virtual machine 
+C:\Users\xenial64> vagrant ssh -> now you are inside your virtual machine. 
+
+## Ubuntu
 Open the Terminal application:
 Now you will execute command line in your Terminal (each of them start with $)
 Install VirtualBox: $ sudo apt-get install virtualbox
-Install Vagrant: `$ sudo apt-get install vagrant
-Add the Ubuntu 14.04 (Trusty) image to your box list: $ vagrant box add ubuntu/trusty64 Warning: this step can take time
-Many other images are available here
+Install Vagrant: $ sudo apt-get install vagrant
 Create your first virtual machine:
-$ vagrant init ubuntu/trusty64 -> it will generate a Vagrantfile with base = "ubuntu/trusty64" - you don’t have to execute this command line everyday, only once, to create a new virtual machine
+$ vagrant init ubuntu/xenial64 -> it will generate a Vagrantfile with base = "ubuntu/xenial64" - you don’t have to execute this command line everyday, only once, to create a new virtual machine
 $ vagrant up -> it will start your virtual machine
 $ vagrant ssh -> now you are inside your virtual machine.
+
+## Tweaking Vagrant settings to increase storage from 10GB to 15GB
+
+
+

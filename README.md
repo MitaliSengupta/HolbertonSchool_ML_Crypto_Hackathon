@@ -88,7 +88,10 @@ Hello from Docker!
 - \> vagrant ssh
 
 ## Installing Docker Image
-- $ ```docker run -it -p 8888:8888 --ipc=host -v $PWD:/root ufoym/deepo:all-jupyter-py27 jupyter notebook --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token= --notebook-dir='/root'```
+
+### To make the docker image to work properly, please ass "-cpu" to the command. I have udated the command below. Please use this command. Either increase the vagrant size to 20GB or create a new vagrant container.
+
+- $ ```docker run -it -p 8888:8888 --ipc=host -v $PWD:/root ufoym/deepo:all-jupyter-py27-cpu jupyter notebook --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token= --notebook-dir='/root'```
 
 - use this command when you need to reboot the image 
 

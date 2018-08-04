@@ -33,7 +33,7 @@ This will run a deep learning jupyter notebook on your machine, accessible at po
 Use your browser to access http://localhost:8888 and open the file crypto_predict.ipynb to get started.
 
 
-# Getting Ready For the Hackathon
+# Setting up the requirements
 
 This is a file that will help in installing a vagrant box with ubuntu 16.04 and the docker container that has all the docker images that will be used and required for the Hackathon.
 
